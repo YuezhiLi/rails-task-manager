@@ -1,0 +1,9 @@
+<%= form_for(@task) do |f| %>
+<%= f.label :title, "Enter task title" %>
+<%= f.text_field :title %>
+<%= f.label :details, "Enter task detail" %>
+<%= f.text_field :details %>
+<%= f.label :completed, "Is the task completed?" %>
+<%= f.text_field :completed %>
+<%= f.submit %>
+<% end %>
